@@ -5,9 +5,9 @@ import $ from "jquery";
 
 
 
-$(window).on("load", function() {
-    $(".cssload").delay(200).fadeOut("slow");
-});
+// $(window).on("load", function() {
+//     $(".cssload").delay(200).fadeOut("slow");
+// });
 
 // $(document).ready(function (e) {
 
