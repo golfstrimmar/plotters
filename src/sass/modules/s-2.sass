@@ -1,0 +1,153 @@
+
+.section-1
+  *
+    position: relative 
+  +fdc
+  +alic
+  padding: 97px 0 0 0
+  // padding: calc(46px + (97-46)*((100vw-320px)/(1800-320))) 0 0 0
+    
+  +fdc
+  +alic
+  
+.section-1__img
+  // position: relative
+  width: 35.7%
+  // width: 600px
+  // width: calc(70% + (33.7-70)*((100vw-320px)/(1800-320))) 
+
+.section-1__text
+    +tu
+    // font-size:   calc(13px + (31-13)*((100vw-320px)/(1800-320))) 
+    font-size: 31px
+    color: #404B5C
+    text-align: center
+    letter-spacing: 0.33rem
+    margin: 18px 0 0 0
+
+.section-1__img-1
+  width: 74.2%
+  // width: calc(90% + (74.2-90)*((100vw-320px)/(1800-320))) 
+  height: auto
+  margin: 63px auto 0
+  img
+    margin: 0 auto
+
+.section-1__title
+  max-width: 935px
+  margin: 40px 0 0 0
+  h1
+    // font-size: 67px
+    font-size: 67px
+    +f700
+    +tu
+    text-align: center
+    line-height: 1.2
+
+@media (min-width: 768px) and (max-width: 1999px)
+  .section-1__title
+    padding: 0 20px
+    h1
+      font-size: calc(25px + (67-25)*((100vw-768px)/(1999-768))) 
+  .section-1__img-1
+    width: calc(90% + (74.2-90)*((100vw-768px)/(1999-768))) 
+  .section-1__text
+    font-size:   calc(13px + (31-13)*((100vw-768px)/(1999-768))) 
+@media (max-width: 767px)
+  .section-1__title
+    padding: 0 20px
+    h1
+      font-size: 25px
+      padding: 0 20px
+  .section-1__text
+    font-size:  13px
+
+
+
+
+
+
+// ----------------------------------------------------
+.section-2
+  padding: 817px 0 0 0
+  position: relative
+  @media (min-width: 768px) and (max-width: 1199px)
+    padding: calc(550px + (817-550)*((100vw-768px)/(1199-768)))  0 0 0
+  @media (max-width: 767px)
+    padding: calc(270px + (550-270)*((100vw-320px)/(767-320)))  0 0 0
+
+
+
+
+.section-2__img
+  position: absolute
+  right: 0px
+  top: 41px
+  // margin: 0 -75px 0 0px
+  width: 100%
+  img
+    +pro
+    
+@media (min-width: 768px) and (max-width: 1199px)
+  .section-2__img
+    width: 100%
+    right: 0px
+@media (max-width: 767px)
+  .section-2__img
+    width: 100%
+    right: 0px
+    top: 40px
+    margin: 0 0 0 0
+
+
+
+
+
+.section-2__body
+  padding: 0 0 0 53px
+  @media (max-width: 767px)
+    padding: 0 20px
+
+
+
+.section-2__title
+  h2 
+    color: $active
+
+
+.section-2__text
+  margin: 39px 0 0 0
+  p
+    +rr
+    font-size: 36px
+    position: relative
+    z-index: 2
+    margin: 7px 0 0 0
+@media (min-width: 768px) and (max-width: 1380px)
+  .section-2__text
+    margin: 20px 0px  0
+    p
+      font-size: calc(25px + (36-25)*((100vw-768px)/(1380-768))) 
+  .section-2__text
+    p
+      font-size: calc(15px + (36-15)*((100vw-768px)/(1380-768)))
+@media (max-width: 767px)
+  .section-2__text
+    margin: 20px 0px  0
+    p
+      font-size: 15px
+
+
+
+.section-2__icons
+  position: relative
+  z-index: 2
+  margin: 40px 0 0 0
+  @media (min-width: 768px) and (max-width: 1380px)
+    width: 100%
+    padding: 0 20px 0 0
+    margin: 20px 0px 0px 0px
+  @media (max-width: 767px)
+    margin: 20px 0px 0px 0px
+    width: 100%
+    

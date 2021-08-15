@@ -32,6 +32,16 @@ font-stretch: normal;
   }
   
 @font-face {
+  font-family: gothampro-medium;
+  src:
+  local(gothampro-medium),
+  url('/assets/fonts/gothampro-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  }
+
+@font-face {
   font-family: gothampro-bold;
   src:
   local(gothampro-bold),
